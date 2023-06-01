@@ -384,16 +384,12 @@ footer .links a:hover {
     right: -100%;
     background-color: var(--primary);
     width: 40%;
-    height: 50vh;
+    height: 30vh;
     border-radius: 1rem;
     -webkit-border-radius: 1rem;
     -moz-border-radius: 1rem;
     -ms-border-radius: 1rem;
     -o-border-radius: 1rem;
-  }
-
-  .navbar .navbar-extra a {
-    margin: 0 1rem;
   }
 
   .navbar .navbar-nav.active {
