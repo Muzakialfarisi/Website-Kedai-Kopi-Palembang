@@ -302,12 +302,13 @@ body {
 
 .contact .row .btn {
   margin-top: 1rem;
+  color: #fff;
   background-color: #b97e43;
   padding: 0.8rem 1rem;
   cursor: pointer;
   border: 1px solid white;
   border-radius: 5px;
-  font-size: 1.7rem;
+  font-size: 1.2rem;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
