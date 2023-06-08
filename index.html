@@ -25,29 +25,72 @@
   </head>
   <body>
     <!-- Navbar Start -->
-    <nav class="navbar" data-aos="fade-down">
+    <nav class="navbar" data-aos="fade-down" data-aos-duration="1000">
       <div class="navbar-logo">
         <a href="#home">Kopi <span>Palembang</span></a>
       </div>
       <div class="navbar-nav">
         <a href="#">Home</a>
         <a href="#about">Tentang Kami</a>
-        <a href="#menu">Produk</a>
+        <a href="#menu">Menu</a>
+        <a href="#product">Produk</a>
         <a href="#contact">Kontak</a>
       </div>
 
       <div class="navbar-extra">
-        <a href="#" id="search"><i data-feather="search"></i> </a>
+        <a href="#" id="search-button-nav"><i data-feather="search"></i> </a>
         <a href="#" id="shopping-cart"><i data-feather="shopping-cart"></i> </a>
         <a href="#" id="hamburger-menu"><i data-feather="menu"></i> </a>
       </div>
+
+      <!-- Search Form Start -->
+
+      <div class="search-form">
+        <input type="search" id="search-box" placeholder="Search..." />
+        <label for="search-box"><i data-feather="search"></i></label>
+      </div>
+
+      <!-- Search Form End -->
+
+      <!-- Shopping cart start -->
+      <div class="shopping-cart">
+        <div class="cart-item">
+          <img src="assets/Product/1.jpg" alt="Product 1" />
+
+          <div class="cart-title">
+            <h3>Product 1</h3>
+            <p>IDR 30K</p>
+          </div>
+          <i data-feather="trash-2" class="remove"></i>
+        </div>
+        <div class="cart-item">
+          <img src="assets/Product/2.jpg" alt="Product 1" />
+
+          <div class="cart-title">
+            <h3>Product 1</h3>
+            <p>IDR 30K</p>
+          </div>
+          <i data-feather="trash-2" class="remove"></i>
+        </div>
+        <div class="cart-item">
+          <img src="assets/Product/6.jpg" alt="Product 1" />
+
+          <div class="cart-title">
+            <h3>Product 1</h3>
+            <p>IDR 30K</p>
+          </div>
+          <i data-feather="trash-2" class="remove"></i>
+        </div>
+      </div>
+
+      <!-- Shopping cart end -->
     </nav>
     <!-- Navbar End -->
 
     <!-- Start Hero Section -->
 
     <section id="home" class="hero">
-      <main class="content" data-aos="fade-right">
+      <main class="content" data-aos="fade-right" data-aos-duration="1000">
         <h1>Nimati Secangkir <span>Kopi</span></h1>
         <p>
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error, unde
@@ -90,22 +133,22 @@
         tempore ipsum!
       </p>
       <div class="row">
-        <div class="menu-card" data-aos="zoom-in">
+        <div class="menu-card" data-aos="zoom-in" data-aos-duration="1000">
           <img src="assets/Menu/1.jpg" alt="Menu Kami" class="menu-card-img" />
           <h3 class="menu-name">Coffee Latte</h3>
           <p class="menu-title">IDR 25K</p>
         </div>
-        <div class="menu-card" data-aos="zoom-in">
+        <div class="menu-card" data-aos="zoom-in" data-aos-duration="1000">
           <img src="assets/Menu/2.jpg" alt="Menu Kami" class="menu-card-img" />
           <h3 class="menu-name">Cappuccino</h3>
           <p class="menu-title">IDR 20K</p>
         </div>
-        <div class="menu-card" data-aos="zoom-in">
+        <div class="menu-card" data-aos="zoom-in" data-aos-duration="1000">
           <img src="assets/Menu/3.jpg" alt="Menu Kami" class="menu-card-img" />
           <h3 class="menu-name">Carramel Latte</h3>
           <p class="menu-title">IDR 15K</p>
         </div>
-        <div class="menu-card" data-aos="zoom-in">
+        <div class="menu-card" data-aos="zoom-in" data-aos-duration="1000">
           <img src="assets/Menu/4.jpg" alt="Menu Kami" class="menu-card-img" />
           <h3 class="menu-name">Vanila Latte</h3>
           <p class="menu-title">IDR 15K</p>
@@ -115,9 +158,110 @@
 
     <!-- Section Menu End -->
 
+    <!-- Section Produk Start -->
+
+    <section id="product" class="product">
+      <h2>Produk <span>Kami</span></h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo,
+        laboriosam explicabo. Esse ab modi animi ipsa, dolorem ad sunt
+        distinctio.
+      </p>
+
+      <div class="row">
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#"><i data-feather="eye"></i></a>
+          </div>
+          <div class="product-image">
+            <img src="assets/Product/2.jpg" alt="Product 1" />
+          </div>
+          <div class="product-content">
+            <h3>Coffee Latte</h3>
+            <div class="product-start">
+              <i data-feather="star" class="start-full"></i>
+              <i data-feather="star" class="start-full"></i>
+              <i data-feather="star" class="start-full"></i>
+              <i data-feather="star" class="start-full"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="product-price">IDR 20K <span>40K</span></div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#"><i data-feather="eye"></i></a>
+          </div>
+          <div class="product-image">
+            <img src="assets/Product/3.jpg" alt="Product 1" />
+          </div>
+          <div class="product-content">
+            <h3>Coffee Americano</h3>
+            <div class="product-start">
+              <i data-feather="star" class="start-full"></i>
+              <i data-feather="star" class="start-full"></i>
+              <i data-feather="star" class="start-full"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="product-price">IDR 15K <span>40K</span></div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#"><i data-feather="eye"></i></a>
+          </div>
+          <div class="product-image">
+            <img src="assets/Product/5.jpg" alt="Product 1" />
+          </div>
+          <div class="product-content">
+            <h3>Coffee Ekspresso</h3>
+            <div class="product-start">
+              <i data-feather="star" class="start-full"></i>
+              <i data-feather="star" class="start-full"></i>
+              <i data-feather="star" class="start-full"></i>
+              <i data-feather="star" class="start-full"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="product-price">IDR 35K <span>75K</span></div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#"><i data-feather="eye"></i></a>
+          </div>
+          <div class="product-image">
+            <img src="assets/Product/6.jpg" alt="Product 1" />
+          </div>
+          <div class="product-content">
+            <h3>Coffee Aceh</h3>
+            <div class="product-start">
+              <i data-feather="star" class="start-full"></i>
+              <i data-feather="star" class="start-full"></i>
+              <i data-feather="star" class="start-full"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="product-price">IDR 50K <span>80K</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Produk End -->
+
     <!-- Section Kontak Start -->
 
-    <section id="contact" class="contact">
+    <section
+      id="contact"
+      class="contact"
+      data-aos="zoom-in"
+      data-aos-duration="1000"
+    >
       <h2>Kontak <span> Kami</span></h2>
       <div class="row">
         <iframe
