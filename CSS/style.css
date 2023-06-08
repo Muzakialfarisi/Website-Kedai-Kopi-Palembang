@@ -125,14 +125,14 @@ body {
 .navbar .search-form input {
   height: 100%;
   width: 100%;
-  color: #fff;
+  color: var(--bg);
   font-weight: 500;
   font-size: 1.3rem;
   padding: 1rem;
 }
 
 .navbar .search-form label {
-  color: #fff;
+  color: var(--bg);
   font-size: 1rem;
   padding: 1rem;
   cursor: pointer;
