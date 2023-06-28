@@ -45,7 +45,23 @@ document.addEventListener("click", function (e) {
     shoppingCart.classList.remove("active");
   }
 
-  const contactForm = this.getElementById('contact-form')
+  const contactForm = document.getElementById('contact-form');
+
+  contactForm.addEventListener('submit', function(e) {
+    e.preventDefault();
+
+    const url = e.target.action;
+    const formData = new FormData(contactForm);
+
+    fetch(url,{
+      method: 'POST',
+      body: formData,
+      mode: "no-cors",
+    }).then(() => {
+      // url
+      window.location.href='send_email.html';
+    }).catch((e) => alert('error accurced'));
+  });
 
   
 });
