@@ -44,4 +44,9 @@ document.addEventListener("click", function (e) {
   if (!scart.contains(e.target) && !shoppingCart.contains(e.target)) {
     shoppingCart.classList.remove("active");
   }
+
+
+  
 });
+
+
