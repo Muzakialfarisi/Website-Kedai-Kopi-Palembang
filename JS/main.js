@@ -45,6 +45,7 @@ document.addEventListener("click", function (e) {
     shoppingCart.classList.remove("active");
   }
 
+  const contactForm = this.getElementById('contact-form')
 
   
 });
