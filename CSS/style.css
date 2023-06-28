@@ -324,6 +324,17 @@ body {
   color: #fff;
 }
 
+.menu .food {
+  letter-spacing: 10px;
+  color: #fa8e23;
+}
+
+.menu .drink {
+  letter-spacing: 10px;
+  color: #fa8e23;
+  text-decoration: underline;
+}
+
 .menu .row {
   display: flex;
   flex-wrap: wrap;
