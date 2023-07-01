@@ -327,6 +327,7 @@ body {
 .menu .food {
   letter-spacing: 10px;
   color: #fa8e23;
+  text-decoration: underline;
 }
 
 .menu .drink {
@@ -621,9 +622,9 @@ footer .credits a:hover {
     position: absolute;
     top: 100%;
     right: -100%;
-    background-color: var(--primary);
+    background-color: #bb9064;
     width: 40%;
-    height: 30vh;
+    height: 100vh;
     border-radius: 1rem;
     -webkit-border-radius: 1rem;
     -moz-border-radius: 1rem;
@@ -647,22 +648,23 @@ footer .credits a:hover {
     text-align: center;
     margin: 1rem;
     font-weight: 700;
+ 
   }
 
   .navbar .navbar-nav a:hover {
     border-bottom: 1px solid #fff;
     color: #fff;
-    transition: 0.2s;
+    transition: 0.2s linear;
     transform: scale(1.1);
     -webkit-transform: scale(1.1);
     -moz-transform: scale(1.1);
     -ms-transform: scale(1.1);
     -o-transform: scale(1.1);
-    -webkit-transition: 0.2s;
-    -moz-transition: 0.2s;
-    -ms-transition: 0.2s;
-    -o-transition: 0.2s;
-  }
+    -webkit-transition: 0.2s linear;
+    -moz-transition: 0.2s linear;
+    -ms-transition: 0.2s linear;
+    -o-transition: 0.2s linear;
+}
 
   .about .row {
     flex-wrap: wrap;
@@ -672,13 +674,17 @@ footer .credits a:hover {
     margin-top: 1rem;
   }
 
+  .menu .row .menu-card {
+      width: 40%;
+  }
+
   .contact .row {
     flex-wrap: wrap;
     height: 53rem;
   }
 
   .contact h2 {
-    margin-top: 20rem;
+    margin-top: 5rem;
   }
 
   .contact .row .maps {
