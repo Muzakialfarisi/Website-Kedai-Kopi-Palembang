@@ -45,6 +45,7 @@ document.addEventListener("click", function (e) {
     shoppingCart.classList.remove("active");
   }
 
+  // Contact Form terintegrasi dengan gmail
   const contactForm = document.getElementById('contact-form');
 
   contactForm.addEventListener('submit', function(e) {
