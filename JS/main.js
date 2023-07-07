@@ -39,7 +39,7 @@ document.addEventListener("click", function (e) {
 
   if (!sbox.contains(e.target) && !searchForm.contains(e.target)) {
     searchForm.classList.remove("active");
-  }
+  } 
 
   if (!scart.contains(e.target) && !shoppingCart.contains(e.target)) {
     shoppingCart.classList.remove("active");
