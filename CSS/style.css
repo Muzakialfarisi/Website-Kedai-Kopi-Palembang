@@ -454,7 +454,7 @@ body {
 
 .product .product-start {
   font-size: 0.5rem;
-  padding: 1rem;
+  padding: 1c rem;
   color: var(--primary);
 }
 
@@ -693,6 +693,21 @@ footer .credits a:hover {
 
   .contact .row form {
     padding-top: 0;
+  }
+
+  .product .product-icons a {
+    flex-wrap: wrap;
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .product .product-image img {
+    height: 15rem;
+    width: 17rem;
+  }
+
+  .product .row {
+    grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
   }
 }
 
